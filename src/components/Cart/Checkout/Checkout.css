@@ -1,0 +1,29 @@
+.checkoutBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 12px;
+    padding: 8px 16px;
+    position: relative;
+    width: 256px;
+    height: 48px;
+    
+    
+    background: #282C34;
+    color: aliceblue;
+    border-color: #282c34;
+    border-radius: 5px;
+    
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.checkoutForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 1.5rem;
+    border-radius: 10px;
+
+}

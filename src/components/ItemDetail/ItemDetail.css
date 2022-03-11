@@ -1,0 +1,85 @@
+
+
+.itemDetail{
+    margin-block: 20px auto;
+    font-weight: bold;
+    width: 70%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    
+}
+
+.itemDetail-inner{
+    display: inherit;
+    flex-direction: column;
+    width: 100%;
+}
+
+.itemDetail-inner_top{
+    display: inherit;
+    justify-content: space-evenly;
+    width: inherit;
+    margin-block: 40px, 20px;
+    padding-block: 2rem;
+}
+
+.itemDetail-inner_buyInfo{
+    margin-top: 2rem;  
+}
+
+
+
+.detailImg{
+    width: 300px;
+    height: auto;  
+      
+}
+
+
+.priceTag{
+    font-weight: normal;
+    color: rgb(85, 84, 84);
+}
+
+.itemCount{
+    margin-block: 90px;
+}
+ 
+
+.itemDetail-inner_bottom{
+    display: inherit;
+    width: inherit;
+    padding-block: 2rem;
+}
+
+.itemDetail-inner_description{
+    display: inherit;
+    flex-direction: column;
+    border-top: solid 1px rgb(143, 143, 143);
+    margin: auto;
+    width: 90%;
+}
+
+.itemDetail-inner_descriptionTag{
+    display: inherit;
+    justify-self: flex-start;
+    padding-inline: 20px;
+    padding-block: 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.itemDetail-inner_descriptionText{
+    display: inherit;
+    justify-self: flex-start !important;
+    padding-left: 20px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+

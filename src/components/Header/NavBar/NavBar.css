@@ -1,0 +1,44 @@
+
+.navLink{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    width: 16%;
+  }
+  
+
+
+  .navComponent{
+    color: aliceblue;  
+    white-space: nowrap;
+  }
+  
+  .navLink:hover{
+    background-color: #000;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .navLink:hover a{
+    color: aliceblue;
+  }
+
+  .navBarList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0px;
+  }
+  
+  .navBar{
+    margin: auto;
+    background-color: #282c34;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+  }

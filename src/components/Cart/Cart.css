@@ -1,0 +1,81 @@
+.cartBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 24px;
+    padding: 12px 24px;
+    position: relative;
+    height: 48px;
+    
+    
+    background: #282C34;
+    color: aliceblue;
+    border-color: #282c34;
+    border-radius: 5px;
+    
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+.cartDisplay{
+    margin: auto;
+    box-shadow: 0px 1px 2px 0.5px rgb(187, 187, 187, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-block: 1rem;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    
+}
+
+.orderDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.cartItem-container{
+    border-bottom: solid 4px black;
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.cartItem{
+    
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-weight: bold;
+    
+}
+
+.cartItem:nth-child(odd){
+    background-color: rgba(145, 145, 145, 0.6);
+}
+
+.endOrder{
+    padding: 12px 20px;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.cartTotal{
+    font-size: 24px;
+    font-weight: bold;
+   
+    margin-right: 12px;
+}

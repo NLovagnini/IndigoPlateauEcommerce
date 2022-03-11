@@ -1,0 +1,39 @@
+.widgetImg{
+    width: 2rem;
+    height: 1.9rem;
+    vertical-align: middle;
+    border-style: none;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    right: 80px;
+}
+
+.cartAmount{
+    margin-left: 16px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cart:hover{
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+.widgetContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.cartWidget{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    padding-block: 8px;
+    padding-inline: 16px;
+    width: fit-content;
+    border-radius: 24px;
+}

@@ -1,0 +1,18 @@
+
+.itemListPic{
+    width: 200px;
+    height: auto;
+}
+
+.itemLink{
+    color: black;
+    font-weight: bold;
+}
+.itemLink:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.itemTitle{
+    margin-bottom: 0.5rem;
+}

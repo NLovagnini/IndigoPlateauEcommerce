@@ -1,0 +1,6 @@
+.homeBanner{
+    width: 100vw;
+    max-width: 100%;
+    border: 6px solid #282c34;
+    border-top: none;
+}

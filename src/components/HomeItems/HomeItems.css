@@ -1,0 +1,31 @@
+.homeItems{
+    padding-block: 2rem;
+}
+
+.homeItems-inner{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.76);
+    justify-content: center;
+}
+
+.homeItems-inner_display{
+    width: 100%;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.homeItemsText{
+    margin-right: auto;
+    padding: 2rem 0px 0px 2.5rem;
+    font-weight: bold;
+    font-size: 28px;
+}

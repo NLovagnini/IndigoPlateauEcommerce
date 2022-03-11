@@ -1,0 +1,13 @@
+.nameLogo{
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+    white-space: nowrap;
+}
+
+
+.nameLogo:hover{
+    text-decoration: none;
+}

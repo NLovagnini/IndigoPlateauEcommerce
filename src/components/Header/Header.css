@@ -1,0 +1,14 @@
+.overNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 1rem;
+    background-color: rgb(224, 224, 224);
+}
+
+
+

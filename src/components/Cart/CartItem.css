@@ -1,0 +1,29 @@
+.itemDisplay{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemDisplay span{
+    font-size: 20px;
+    margin-inline: 32px;
+    padding-inline: 16px;
+}
+
+.removeImg{
+    width: 24px;
+    height: auto;
+    margin-inline: 8px;
+}
+
+.removeImg:hover{
+    cursor: pointer;
+}
+
+.cartImg{
+   width: 48px;
+   height: 72px; 
+}
+
