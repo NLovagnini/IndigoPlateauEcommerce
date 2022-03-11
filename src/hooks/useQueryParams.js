@@ -36,6 +36,5 @@ export const useQueryParams = () => {
         }
 
     }, [search]) // eslint-disable-line
-    console.log(queries);
   return (queries)
 }

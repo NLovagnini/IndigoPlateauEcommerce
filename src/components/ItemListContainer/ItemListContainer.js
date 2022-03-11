@@ -14,7 +14,6 @@ const ItemListContainer = () => {
   const queryParams = useQueryParams().toLowerCase()
   const querySearch = [queryParams]
 
-    console.log(querySearch);
 
   const [items, setItems] = useState([])
 
