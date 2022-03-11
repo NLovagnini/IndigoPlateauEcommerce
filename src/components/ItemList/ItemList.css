@@ -24,7 +24,7 @@
     padding-inline: 12px;
     height: auto;
     width: 25%;
-    opacity: 0.9;
+    opacity: 90;
     transition: 0.3s;
     align-items: normal;
     justify-content: center;
@@ -33,7 +33,7 @@
 }
 
 .itemPreview:hover{
-    opacity: 100%;
+    opacity: 100;
     transform: scale(1.05);
 }
 
